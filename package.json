@@ -1,0 +1,35 @@
+{
+  "name": "south",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "connect-mongo": "^3.1.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv-safe": "^8.2.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.17.0",
+    "formidable": "^1.2.2",
+    "http-errors": "~1.6.3",
+    "http-status-codes": "^2.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "kaltura-client": "^16.14.0",
+    "mongoose": "^5.7.12",
+    "morgan": "~1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "request": "^2.88.0",
+    "should": "^13.2.3"
+  }
+}
